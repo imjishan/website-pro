@@ -4,7 +4,6 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import { type FC, Suspense } from 'react';
 import Avatar from './avatar.jpg';
-import { AnnouncementCard } from './cards/announcement';
 import { GitHubCard } from './cards/github';
 import { Location } from './components/location';
 import { Newsletter } from './components/newsletter';
