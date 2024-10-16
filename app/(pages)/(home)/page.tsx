@@ -17,8 +17,8 @@ export const generateMetadata = async (): Promise<Metadata> => {
   const location = await get<string>('location');
 
   return {
-    title: 'Hayden Bleasel | Design Engineer',
-    description: `I’m currently the Chief Product Officer at Corellium and the founder of Eververse. Currently based in ${location}.`,
+    title: 'Jishan Ahmed | Software Engineer',
+    description: `I’m currently freelancing and pursuing degree from KKHSOU. Currently based in ${location}.`,
   };
 };
 
@@ -35,7 +35,7 @@ const Home: FC = () => (
       priority
     />
     <h1 className="text-3xl leading-tight tracking-[-0.045em] sm:text-4xl">
-      Hello, I’m Hayden Bleasel. I’m an Australian Design Engineer currently
+      Hello, I’m Jishan Ahmed (jissu). I’m a Software Engineer currently
       based in{' '}
       <Suspense
         fallback={
@@ -46,7 +46,7 @@ const Home: FC = () => (
       </Suspense>
       .
     </h1>
-    <Newsletter />
+   <Newsletter />
     <div className="prose-img:m-0 prose-p:m-0 grid gap-3 md:grid-cols-3">
       <div className="md:col-span-2">
         <Suspense
@@ -55,36 +55,6 @@ const Home: FC = () => (
           <GitHubCard />
         </Suspense>
       </div>
-      <Suspense
-        fallback={<Skeleton className="h-[222px] w-full rounded-2xl" />}
-      >
-        <AnnouncementCard />
-      </Suspense>
-      <Suspense
-        fallback={<Skeleton className="h-[218px] w-full rounded-2xl" />}
-      >
-        <SpotifyCard />
-      </Suspense>
-      <div className="md:col-span-2">
-        <Suspense
-          fallback={<Skeleton className="h-[218px] w-full rounded-2xl" />}
-        >
-          <SteamCard />
-        </Suspense>
-      </div>
-      <div className="md:col-span-3">
-        <Suspense
-          fallback={<Skeleton className="h-[433px] w-full rounded-2xl" />}
-        >
-          <VideoCard />
-        </Suspense>
-      </div>
-      <div className="md:col-span-3">
-        <Suspense
-          fallback={<Skeleton className="h-[242px] w-full rounded-2xl" />}
-        >
-          <TypefullyCard />
-        </Suspense>
       </div>
     </div>
   </>
