@@ -41,7 +41,6 @@ const Home: FC = () => (
       </Suspense>
       .
     </h1>
-   <Newsletter />
     <div className="prose-img:m-0 prose-p:m-0 grid gap-3 md:grid-cols-3">
       <div className="md:col-span-2">
         <Suspense
