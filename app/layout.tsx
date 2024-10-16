@@ -1,7 +1,6 @@
 import { Navbar } from '@/components/navbar';
 import { siteUrl } from '@/lib/consts';
 import { cn } from '@/lib/utils';
-import { Analytics } from '@vercel/analytics/react';
 import { GeistMono } from 'geist/font/mono';
 import { GeistSans } from 'geist/font/sans';
 import type { Metadata } from 'next';
@@ -13,7 +12,7 @@ type RootLayoutProperties = {
   readonly children: ReactNode;
 };
 
-const name = 'Hayden Bleasel';
+const name = 'Jishan Ahmed';
 
 export const metadata: Metadata = {
   applicationName: name,
@@ -40,7 +39,7 @@ export const metadata: Metadata = {
   publisher: name,
   twitter: {
     card: 'summary_large_image',
-    creator: '@haydenbleasel',
+    creator: '@JishanCodes',
   },
 };
 
@@ -58,7 +57,6 @@ const RootLayout: FC<RootLayoutProperties> = ({ children }) => (
       {children}
       <Navbar />
       <Toaster />
-      <Analytics />
     </body>
   </html>
 );
