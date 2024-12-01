@@ -133,8 +133,8 @@ importers:
         specifier: ^5.6.3
         version: 5.6.3
       ultracite:
-        specifier: ^4.1.4
-        version: 4.1.4
+        specifier: ^4.1.7
+        version: 4.1.7
 
 packages:
 
@@ -3124,8 +3124,9 @@ packages:
     engines: {node: '>=0.8.0'}
     hasBin: true
 
-  ultracite@4.1.4:
-    resolution: {integrity: sha512-FwZ+yots6EEQaK1bhdu+LPtXVl1NMKoZf9w4cV5QwZw1HWYhTNap0iOqiY0rCbe5mGUGOJ2/iSB2HWPj1QwtxA==}
+  ultracite@4.1.7:
+    resolution: {integrity: sha512-LqUj6o3GVpFXtkr6R1xoBfWuN2E7xl+nZ38C64EY9HeKDbffi57bpk81atnB5xHST0Ryb3F0/hUlFaoDEU84Yg==}
+    hasBin: true
 
   undici-types@6.19.8:
     resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
@@ -6846,7 +6847,7 @@ snapshots:
 
   uglify-js@3.17.4: {}
 
-  ultracite@4.1.4: {}
+  ultracite@4.1.7: {}
 
   undici-types@6.19.8: {}
 
